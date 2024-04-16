@@ -40,9 +40,12 @@ If the game is won the stats will be recorded in personal stats and game leaderb
 
 
 
-Known bugs: username input is case-sensitive
+# Known bugs
+- username input is case-sensitive
 
-- Future work would include graphics, sorting the leader board by level and time
+# Future work
+- include graphics
+- sorting the leader board by level and time
 
 # Citations:
 - https://www.programiz.com/cpp-programming/library-function/cctype/isalpha to see if character is in alphabet
