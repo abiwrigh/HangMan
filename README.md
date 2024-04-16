@@ -1,22 +1,22 @@
-# M2OEP-awrigh30
 
 ABIGAIL WRIGHT
 
-DON'T BUILD THE MAN
+# Title: DON'T BUILD THE MAN
 
 This is a game, designed like the hang man, but instead is don't build the man (hang man seems a bit outdated). 
-This program allows the user to choose from three levels, easy, medium, and hard. Each level has a set of 15 words based on hardness.
+This program allows the user to choose from three levels, easy, medium, and hard. Each level has a set of 15 words based on hardness. The game will prompt for username and password for new and returning players. 
 
-From Project 1 program includes:
--timer, to time the user as they are guessing
--randomizer to shuffle the word choice
--user validation
--split, .cpp file and .h file
--a scoreboard that can be accessed after the game
+# Languages and Files Used
 
-From Project 2:
--Inheritance: Don't build a Man is a game from PLay game, play game is structured to have more games in the future
+This program uses C++ and reads from CSV files. 
 
+
+# Details Of Game
+
+Main Function: The main function prompts user if they have an account or not. If yes it will check username, if found will prompt for password. If not found after 5 trys game exits.
+If found, user has a choice of which game to play. Option 2 doesn't work yet as no other game is implemented yet. If new user it prompts user to create and account by validating the username isn't taken. 
+Once game 1, is selected the user will have options to see leaderboard, personal stats, or start game, all options lead to game. Game has 3 levels to choose from. 
+If the game is won the stats will be recorded in personal stats and game leaderboard. Everytime the game is run there is an option to exit.
 
 -Component: Don't Build a Man has a Level class, which has 3 different levels to choose from using and enumerated type in class
 
@@ -38,19 +38,17 @@ From Project 2:
 
 -Files: PlayGame reads from two files one of usernames and one of passwords for each player. I kept it separate to maybe implement encoding.Class also has a function to add new users with username and password.
 
-Main Function: The main function prompts user if they have an account or not. If yes it will check username, if found will prompt for password. If not found after 5 trys game exits.
-If found, user has a choice of which game to play. Option 2 doesn't work yet as no other game is implemented yet. If new user it prompts user to create and account by validating the username isn't taken. 
-Once game 1, is selected the user will have options to see leaderboard, personal stats, or start game, all options lead to game. Game has 3 levels to choose from. 
-If the game is won the stats will be recorded in personal stats and game leaderboard. Everytime the game is run there is an option to exit.
 
-Known bugs: username input is case-sensitive, some of the testing sweeps aren't implemented because I couldn't figure out how to test void functions. 
+
+Known bugs: username input is case-sensitive
+
 - Future work would include graphics, sorting the leader board by level and time
 
 - Citations:
 - https://www.programiz.com/cpp-programming/library-function/cctype/isalpha to see if character is in alphabet
 - https://www.geeksforgeeks.org/tolower-function-in-cpp/ to lower case 
 - https://stackoverflow.com/questions/11719538/how-to-use-stringstream-to-separate-comma-separated-strings to print in columns
-- work from last semester
+
 
 
 -Grading: 
