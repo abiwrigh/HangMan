@@ -48,6 +48,7 @@ Known bugs: username input is case-sensitive
 - https://www.programiz.com/cpp-programming/library-function/cctype/isalpha to see if character is in alphabet
 - https://www.geeksforgeeks.org/tolower-function-in-cpp/ to lower case 
 - https://stackoverflow.com/questions/11719538/how-to-use-stringstream-to-separate-comma-separated-strings to print in columns
+- Lisa Dion, UVM for validating input
 
 
 
