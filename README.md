@@ -18,25 +18,25 @@ If found, user has a choice of which game to play. Option 2 doesn't work yet as 
 Once game 1, is selected the user will have options to see leaderboard, personal stats, or start game, all options lead to game. Game has 3 levels to choose from. 
 If the game is won the stats will be recorded in personal stats and game leaderboard. Everytime the game is run there is an option to exit.
 
--Component: Don't Build a Man has a Level class, which has 3 different levels to choose from using and enumerated type in class
+- Component: Don't Build a Man has a Level class, which has 3 different levels to choose from using and enumerated type in class
 
 
--Component: PlayGame has a Player class which has fields username and password, player stats to write out to, player stats to read from, and input validation
+- Component: PlayGame has a Player class which has fields username and password, player stats to write out to, player stats to read from, and input validation
 
 
--Files: Player class writes out to a file for individual user, if user is new it will create new csv file for user. It also has a function to read from user's csv file.
+- Files: Player class writes out to a file for individual user, if user is new it will create new csv file for user. It also has a function to read from user's csv file.
 
 
--Files: In Don't build the man class leaderboard reads from csv file to show leaderboard for game
+- Files: In Don't build the man class leaderboard reads from csv file to show leaderboard for game
 
 
--Files: In main function, if player wins a game the stats are recorder to leader csv file
+- Files: In main function, if player wins a game the stats are recorder to leader csv file
 
 
--Files: In Level Class files are read in from a txt file for each level, medium, easy, and hard
+- Files: In Level Class files are read in from a txt file for each level, medium, easy, and hard
 
 
--Files: PlayGame reads from two files one of usernames and one of passwords for each player. I kept it separate to maybe implement encoding.Class also has a function to add new users with username and password.
+- Files: PlayGame reads from two files one of usernames and one of passwords for each player. I kept it separate to maybe implement encoding.Class also has a function to add new users with username and password.
 
 
 
@@ -44,7 +44,7 @@ Known bugs: username input is case-sensitive
 
 - Future work would include graphics, sorting the leader board by level and time
 
-- Citations:
+# Citations:
 - https://www.programiz.com/cpp-programming/library-function/cctype/isalpha to see if character is in alphabet
 - https://www.geeksforgeeks.org/tolower-function-in-cpp/ to lower case 
 - https://stackoverflow.com/questions/11719538/how-to-use-stringstream-to-separate-comma-separated-strings to print in columns
