@@ -218,6 +218,7 @@ int Dont_Build_The_Man::get_Level_Choice(std::ostream &outs,std::istream &ins){
     cout <<" "<<endl;
     cout << "Choose a Level:"<<endl;
     cout << "Enter (1) for Easy, (2) for Medium, (3) for Hard"<<endl;
+    // from Lisa Dion, UVM 
     while (!(cin >> levelChoice)||(!(levelChoice == 1 || levelChoice == 2|| levelChoice==3))){
         cout << "Invalid Input! Please Enter Integer."<<endl;
         cin.clear();
