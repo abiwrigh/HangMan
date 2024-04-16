@@ -51,8 +51,3 @@ Known bugs: username input is case-sensitive
 
 
 
--Grading: 
-Main Program: 40, includes complexity, interactive, and validates user input
-Concept C++: 15, includes testing file, some functions missing due to void functions and file reading which was hard
-Concepts: 60, two has-a class (level and player) each different, and 1 is-a class(Dont build the man) all robust
-Files: 25, 1 fucntion creates a new csv file for new users, 1 function writes out to csv with users score, 3 files(all different) but use same function read in a txt file to create a vecotr of words. In main write out to csv file of game leader board, 1 function reads out the same csv file with columns. 1 fucntion reads and writes out to txt files of username and passwords.
